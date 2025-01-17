@@ -12,11 +12,11 @@ def ejercicio_1():
     lista = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     print(f"Lista: {lista}")
 
-    # Método 1
+    # Método 1: Usando el método sum()
     suma = sum(lista)
     print(f"Método 1: La suma de todos los elementos es igual a: {suma}")
 
-    # Método 2
+    # Método 2: Usando bucle for
     suma = 0
     for i in lista:
         suma += i
